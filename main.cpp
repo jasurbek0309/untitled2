@@ -1,21 +1,9 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
-
 using namespace std;
 int main(){
-    long long n; cin >> n;
-    vector <int> a;
-
-    for(int i = 1; i <= n; i ++){
-        int x; cin >> x;
-        a.push_back(x);
-    }
-    sort(a.begin(), a.end());
-
-    cout << a[n - 2];
-
+    long long n; cin>>n;
+    if (n%4!=0) cout<<"Kabisa yili emas"<<endl;
+    else if (n%100==0 and n%400!=0 ) cout<<"Kabisa yili emas"<<endl;
+    else cout<<"Kabisa yili ";
     return 0;
 }
-
-
