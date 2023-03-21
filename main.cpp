@@ -16,6 +16,6 @@ int main(){
     cout << a[n - 2];
 
     return 0;
-}2
+}
 
 
