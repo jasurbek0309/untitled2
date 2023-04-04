@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-    long long n; cin>>n;
-    if (n%4!=0) cout<<"Kabisa yili emas"<<endl;
-    else if (n%100==0 and n%400!=0 ) cout<<"Kabisa yili emas"<<endl;
-    else cout<<"Kabisa yili ";
+    int a, b;
+    cin >> a >> b;
+    cout << "The result of sum is equal to " << a + b << endl;
+    cout << "The result of product is equal to " << a * b << endl;
     return 0;
 }
